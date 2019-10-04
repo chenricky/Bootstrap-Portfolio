@@ -25,18 +25,25 @@
                     </li>
             </ul>
         <h1>About me</h1>
-        <p>About me paragraph 1</p>
-        <p>About me paragraph 2</p>
+        <p>The page tile is About me</p>
+        <p>But it is really about you :-)</p>
         <div class="row">
-          <div class="col-sm-3 col-md-6" style="background-color: purple;">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <div class="col-sm-3 col-md-6" style="background-color: peru;">
+            <p id="time"></p>
           </div>
           <div class="col-sm-9 col-md-6" style="background-color:olive;">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            <p id="browserName"></p>
           </div>
         </div>
     </div>
+<script>
+      var d = new Date();
+      document.getElementById("time").innerHTML = "Your local time is " + d;
+</script>
+<script>
+  document.getElementById("browserName").innerHTML = 
+  "Your web browser is  " + navigator.appName;
+  </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

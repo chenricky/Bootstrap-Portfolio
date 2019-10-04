@@ -52,6 +52,15 @@ h1 {
     cursor: pointer;
 }
 
+#time {
+    text-align: center;
+    padding: 50px;
+}
+
+#browserName {
+    text-align: center;
+    padding: 50px;
+}
 
 @media screen and (max-width: 768px) {
     body {
@@ -59,4 +68,3 @@ h1 {
         color: white;
     }
     
-}
